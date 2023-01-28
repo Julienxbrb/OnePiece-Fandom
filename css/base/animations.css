@@ -1,0 +1,45 @@
+/* ROTATE 1 */
+.rotate_01 {
+  transition: transform 1s;
+}
+.rotate_01:hover {
+  transform: rotate(360deg) translateZ(0);
+}
+/* ROTATE 2 */
+.rotate_02:hover {
+  -webkit-animation: spin 0.5s linear infinite;
+  animation: spin 0.5s linear infinite;
+}
+/* ROTATE 3 */
+.rotate_03 {
+  -webkit-animation: spin 2.5s linear infinite;
+  animation: spin 2.5s linear infinite;
+}
+/* ROTATE 4 */
+.rotate_04 {
+  transition: transform 1.5s;
+}
+.rotate_04:hover {
+  transform: rotateX(360deg) translateX(0);
+}
+
+/* USE KEYFRAMES */
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes moveIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

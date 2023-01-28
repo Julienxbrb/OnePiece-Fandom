@@ -1,0 +1,17 @@
+/* QUOTES */
+.citation {
+  width: 100%;
+  max-width: 90rem;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.citation p {
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5;
+}

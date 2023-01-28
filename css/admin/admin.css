@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background: url("../../images/bg1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: #212529;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 40rem;
+  height: 40rem;
+  background-color: rgba(255, 255, 255, 0.881);
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.461);
+  padding: 2rem;
+}
+.admin-form--heading {
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+.admin-form img {
+  width: 20rem;
+}
+.admin-form input {
+  width: 18rem;
+  height: 2.5rem;
+  border: none;
+  border-bottom: 2px solid #212529;
+  transition: all 0.3s;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #dd8705;
+}
+
+.admin-form input:hover {
+  background: #f3a327;
+}
+
+.admin-form input::placeholder {
+  color: #212529;
+}
+
+.admin-form input:focus {
+  outline: none;
+  background: #f3a327;
+}
+.admin-form input:valid {
+  background: #f3a327;
+}
+
+.btn-submit {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border: 2px solid #212529;
+  background: #212529;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-submit:hover {
+  border: 2px solid #212529;
+  background: #dd8705;
+  color: #212529;
+}

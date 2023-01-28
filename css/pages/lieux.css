@@ -1,0 +1,209 @@
+.lieux-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  max-width: 85rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.lieux-heading {
+  font-size: 4.2rem;
+  font-weight: 300;
+}
+.lieux-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.lieux-text a {
+  color: #c2821f;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.lieux-text a:hover {
+  text-decoration: underline;
+  color: #f3a327;
+}
+
+.button-nav--lieux {
+  max-width: 80rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.tablink {
+  margin-top: 0;
+  max-width: 12rem;
+}
+.tabcontent {
+  padding: 0 0;
+  margin-bottom: 2rem;
+}
+
+.tab-lieux {
+  max-width: 75rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 5px;
+}
+.lieux-description {
+  font-size: 1.6rem;
+}
+.lieux-description p {
+  line-height: 1.7;
+}
+.lieux-description h2 {
+  font-size: 2.6rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding-bottom: 5px;
+}
+.lieux-description span {
+  font-weight: 700;
+}
+.lieux-description a,
+.info-historique--text a {
+  color: #c2821f;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.lieux-description a:hover,
+.info-historique--text a:hover {
+  text-decoration: underline;
+  color: #f3a327;
+}
+
+.lieux-card {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  height: fit-content;
+  text-align: center;
+  outline: #f3a327 ridge 10px;
+  overflow: hidden;
+  background-color: rgba(248, 249, 250, 0.9);
+  margin-top: 1rem;
+  align-self: end;
+}
+
+.lieux-card_heading {
+  color: #f3a327;
+  background-color: #212529;
+  font-size: 1.8rem;
+  padding: 5px 10px;
+}
+
+.lieux-information {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f3a327;
+  background-color: #212529;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.info-historique,
+.lieux-title,
+.lieux-description h2 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-top: 3rem;
+  border-bottom: 1px solid #aaa;
+}
+.info-historique {
+  grid-column: 1 / 3;
+}
+.lieux-title {
+  grid-column: 1 / 3;
+  padding-bottom: 5px;
+}
+.info-historique--text {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin-top: 2rem;
+  grid-column: 1 / 3;
+}
+
+.lieux-galery-container {
+  margin-top: 3rem;
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+.galery-title {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #212529;
+  background-color: #f3a327;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  justify-self: center;
+  grid-column: 1 / 6;
+}
+
+.galery-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+.galery-box a {
+  width: fit-content;
+  color: #c2821f;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px;
+}
+.galery-box a:hover,
+.galery-box a:active {
+  text-decoration: underline solid 1.5px;
+}
+.galery-box img {
+  width: 100%;
+  border-radius: 25%;
+  transition: all 0.3s;
+}
+.galery-box img:hover,
+.galery-box img:active {
+  border-radius: 0;
+}
+.galery-box p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* WEST BLUE */
+.list-west-blue {
+  list-style-type: circle;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.list-west-blue li {
+  font-size: 1.4rem;
+}
+.list-west-blue p {
+  font-size: 1.6rem;
+}
+
+.align-self--center {
+  align-self: flex-start;
+}
+.margin-top--5 {
+  margin-top: 5rem;
+}

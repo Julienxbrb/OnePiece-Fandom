@@ -1,0 +1,40 @@
+/* ********** */
+/* DARK MODE */
+/* ********** */
+.dark-mode {
+  background-color: rgba(33, 37, 41, 0.97) !important;
+  color: #f8f9fa;
+}
+
+#darkmode {
+  transition-property: color, background;
+  transition-duration: 0.3s;
+}
+
+.btn-dark {
+  background-color: #212529;
+  border: 2px solid #212529;
+  color: #f3a327;
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  transition: 0.3s;
+}
+
+.btn-dark:hover,
+.btn-dark:visited {
+  background-color: #f3a327;
+  color: #212529;
+  cursor: pointer;
+}
+.btn-dark:hover ion-icon {
+  transform: rotate(360deg);
+}

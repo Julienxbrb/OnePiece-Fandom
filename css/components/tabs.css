@@ -1,0 +1,38 @@
+/* TABS */
+/* Style tab links */
+.tablink {
+  background-color: rgba(248, 249, 250);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f3a327;
+  color: #212529;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin-top: 20px;
+
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 18rem;
+  transition: 0.3s;
+  font-weight: 600;
+}
+.tablink:hover,
+.tablink:active {
+  background-color: #f3a327;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 35px 20px;
+}
+.tabcontent h4 {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+}

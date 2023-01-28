@@ -1,0 +1,64 @@
+@import "./base/base.css";
+@import "./base/animations.css";
+
+@import "./components/carousel.css";
+@import "./components/btn.css";
+@import "./components/btn-dark.css";
+@import "./components/card-table.css";
+@import "./components/navbar.css";
+@import "./components/tabs.css";
+@import "./components/panels.css";
+@import "./components/modal.css";
+@import "./components/quotes.css";
+@import "./components/spoiler.css";
+@import "./components/events.css";
+
+@import "./layouts/grid.css";
+@import "./layouts/home.css";
+@import "./layouts/aside.css";
+@import "./layouts/footer.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400&display=swap");
+
+.main-page {
+  background-color: rgba(248, 249, 250, 0.9);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  width: 100%;
+  max-width: 140rem;
+  margin: 30px auto;
+  position: relative;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.main-container h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212529;
+  background-color: #f3a327;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 90rem;
+  box-sizing: border-box;
+}
+
+.divider {
+  background-color: #000;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+}

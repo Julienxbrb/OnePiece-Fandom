@@ -1,0 +1,7 @@
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: 2fr 1fr;
+  column-gap: 3.5rem;
+}

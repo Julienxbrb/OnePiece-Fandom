@@ -1,0 +1,22 @@
+.admin-accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.admin-accueil h1 {
+  font-size: 2.4rem;
+}
+
+.admin-accueil p {
+  font-size: 1.8rem;
+}
+
+.luffy-home {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  margin: 3rem 0;
+}

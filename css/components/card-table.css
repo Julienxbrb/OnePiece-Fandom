@@ -1,0 +1,28 @@
+/* LIEUX CARD TABLE */
+.card-table {
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.line-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.line-table:not(:last-child) {
+  border-bottom: 1px solid #c2821f;
+  padding-bottom: 10px;
+}
+.line-title {
+  width: 120px;
+  text-align: center;
+  font-weight: 600;
+}
+.line-name {
+  width: 120px;
+  text-align: left;
+}
